@@ -6,6 +6,8 @@ import event5 from '../assets/images/1.jpg';
 import service2 from '../assets/images/service2.jpg';
 import event6 from '../assets/images/event6.JPG';
 import event7 from '../assets/images/DSCF7235.JPG';
+import event9 from '../assets/images/event9.jpg';
+import event10 from '../assets/images/event10.jpg';
 
 function Home() {
   const navigate = useNavigate();
@@ -31,8 +33,7 @@ function Home() {
           <button className="about-learn-btn">Learn</button>
         </div>
         <div className="about-preview-images">
-          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80" alt="Computer 1" />
-          <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80" alt="Computer 2" />
+          <img src={event10} alt="Computer 2" />
         </div>
       </div>
 

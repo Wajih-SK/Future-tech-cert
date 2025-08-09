@@ -50,12 +50,12 @@
   gap: 48px;
   max-width: 1200px;
   margin: 60px auto 0 auto;
-  padding: 40px 20px;
+  padding: 100px 20px;
 }
 
 .about-preview-content {
   flex: 1;
-  max-width: 400px;
+  max-width: 300px; 
 }
 
 .about-preview-content h2 {
@@ -89,6 +89,7 @@
 .about-preview-images {
   flex: 2;
   display: flex;
+  justify-content: flex-end;
   gap: 32px;
 }
 

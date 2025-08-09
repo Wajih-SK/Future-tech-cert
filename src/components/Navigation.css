@@ -19,14 +19,27 @@
 }
 
 .nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.logo-image {
+  height: 40px;
+  width: auto;
+  border-radius: 8px;
+}
+
+.logo-text {
   font-size: 1.8rem;
   font-weight: 700;
   color: #7ed6df;
-  text-decoration: none;
   transition: color 0.3s ease;
 }
 
-.nav-logo:hover {
+.nav-logo:hover .logo-text {
   color: #fff;
 }
 

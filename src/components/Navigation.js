@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './Navigation.css';
+import logo from '../assets/images/logo.png';
 
 function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,7 +19,7 @@ function Navigation() {
     <nav className="navigation">
       <div className="nav-container">
         <Link to="/" className="nav-logo" onClick={closeMenu}>
-          FutureCC
+          <img src={logo} alt="FutureCC Logo" className="logo-image" />
         </Link>
         
         <div className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>

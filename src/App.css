@@ -40,7 +40,7 @@ a {
 /* Global input styles */
 input, textarea {
   font-family: inherit;
-}
+  }
 
 /* Smooth scrolling */
 html {
