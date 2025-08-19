@@ -43,7 +43,7 @@ function Contact() {
           <div className="contact-details">
             <div className="contact-item">
               <h3>Email</h3>
-              <p>info@futurecc.com</p>
+              <p>jamals@future-tech-cert.com</p>
             </div>
             <div className="contact-item">
               <h3>Phone</h3>
@@ -51,7 +51,8 @@ function Contact() {
             </div>
             <div className="contact-item">
               <h3>Address</h3>
-              <p>123 Innovation Street<br />Tech City, TC 12345</p>
+              <p>Jalaa Street<br />Idlib, Syria</p>
+              <p lang="ar" dir="rtl"><br />شارع الجلاء، أول سوق الصاغة، عبارة المستقبل طابق اول<br />ادلب سورية</p>
             </div>
           </div>
         </div>

@@ -21,22 +21,13 @@ function Home() {
       <div className="hero-section">
         <div className="hero-content">
           <h1>Welcome to Future Computer Center</h1>
+          <h1 lang="ar" dir="rtl">مركز المستقبل للكمبيوتر</h1>
           <p>Your trusted partner for all your computer and technology needs</p>
+          <p lang="ar" dir="rtl">شريكك بكل احتياجاتك في مجال الكمبيوتر و التقانة</p>
           <button className="cta-button" onClick={handleGetStarted}>Get Started</button>
         </div>
       </div>
       
-      <div className="about-preview-section">
-        <div className="about-preview-content">
-          <h2>About Future Computer Center</h2>
-          <p>Your trusted partner in technology since 1996, providing computers, services, training, and innovative products in Syria.</p>
-          <button className="about-learn-btn">Learn</button>
-        </div>
-        <div className="about-preview-images">
-          <img src={event10} alt="Computer 2" />
-        </div>
-      </div>
-
       <div className="service-cards-section">
         <div className="service-card-item">
           <div className="service-card-bg desktop-bg"></div>
@@ -58,20 +49,34 @@ function Home() {
         </div>
       </div>
 
+      <div className="about-preview-section">
+        <div className="about-preview-content">
+          <h2>About Future Computer Center</h2>
+          <p>Your trusted partner in technology since 1996, providing computers, services, training, and innovative products in Syria.</p>
+          <button className="about-learn-btn">Learn</button>
+        </div>
+        <div className="about-preview-images">
+          <img src={event10} alt="Computer 2" />
+        </div>
+      </div>
+
       <div className="features-section">
         <h2>What We Offer</h2>
         <div className="features-grid">
           <div className="feature-card">
             <h3>Tech Sales</h3>
             <p>Premium computers, tablets, and cutting-edge technology solutions</p>
+            <p lang="ar" dir="rtl">بيع أجهزة كمبيوتر وملحقاتها وشبكات وحلول تكنولوجية متطورة</p>
           </div>
           <div className="feature-card">
             <h3>Training & Certification</h3>
             <p>Professional courses in Adobe, Microsoft Office, Azure, CompTIA, and ICDL</p>
+            <p lang="ar" dir="rtl">مركز تدريب مهني معتمد ومرخص مع منح شهادات مصدقة دوليا</p>
           </div>
           <div className="feature-card">
             <h3>Computer Services</h3>
             <p>Comprehensive repair, maintenance, and technical support services</p>
+            <p lang="ar" dir="rtl">خدمات تركيب و صيانة و دعم فني شامل</p>
           </div>
         </div>
       </div>

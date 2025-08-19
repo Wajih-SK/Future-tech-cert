@@ -31,8 +31,8 @@ function Services() {
               <img src={service2} alt="Our Brand Tablets" />
             </div>
             <div className="service-info">
-              <h3>Our Brand Tablets</h3>
-              <p>Premium tablets designed and manufactured by FutureCC with cutting-edge technology and performance.</p>
+              <h3>Our Brand</h3>
+              <p>Premium designed and manufactured by Future Tech with cutting-edge technology and performance.</p>
             </div>
           </div>
           
@@ -58,7 +58,7 @@ function Services() {
         </div>
       </div>
 
-      <div className="location-section">
+      {/* <div className="location-section">
         <div className="location-content">
           <div className="location-info">
             <h2>Our Location</h2>
@@ -66,9 +66,9 @@ function Services() {
             
             <div className="location-details">
               <div className="location-item">
-                <h3>Syria</h3>
-                <p>123 Tech Street, Syria</p>
-              </div>
+                <h3>Jalaa Street, Idlib, Syria</h3>
+                <p lang="ar" dir="rtl"><br />شارع الجلاء، أول سوق الصاغة، عبارة المستقبل طابق اول<br />ادلب سورية</p>
+                </div>
               
               <div className="location-item">
                 <h3>Hours</h3>
@@ -79,7 +79,7 @@ function Services() {
           
           <div className="location-map">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.2219901290355!2d-74.00369368400567!3d40.71312937933185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a23e28c1191%3A0x49f75d3281df052a!2s150%20Park%20Row%2C%20New%20York%2C%20NY%2010007%2C%20USA!5e0!3m2!1sen!2sus!4v1640995200000!5m2!1sen!2sus"
+              src="https://www.google.com/maps?q=Jalaa%20Street%2C%20Idlib%2C%20Syria&z=16&output=embed"
               width="100%"
               height="400"
               style={{ border: 0 }}
@@ -90,7 +90,7 @@ function Services() {
             ></iframe>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
