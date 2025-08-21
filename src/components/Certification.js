@@ -12,187 +12,224 @@ import training3 from '../assets/images/event4.JPG';
 function Certification() {
   return (
     <div className="certification">
+      {/* Hero Section */}
       <div className="certification-hero">
-        <h1>Certification & Training</h1>
-        <p>Empowering your career with professional certifications and comprehensive training programs</p>
+        <h1>Empowering Your Future with Skills, Certifications, and Career Guidance</h1>
+        <p>We provide internationally recognized certifications, hands-on training, and personalized mentorship to help you gain the hard skills and career confidence you need to succeed in today's tech-driven world.</p>
+        <button className="cta-button">👉 Explore Our Programs</button>
       </div>
 
-      <div className="training-programs">
-        <h2>Our Training Programs</h2>
-        <p>Comprehensive training solutions designed to enhance your skills and advance your career</p>
+      {/* Certifications & Technical Training */}
+      <div className="certifications-section">
+        <h2>Build Hard Skills That Open Doors</h2>
+        <p>From foundational digital literacy to advanced professional certifications, our training programs prepare you for the competitive job market. Whether you're starting fresh or looking to upskill, our courses are designed to give you the knowledge and credentials employers value.</p>
         
-        <div className="programs-grid">
-          <div className="program-card">
-            <div className="program-icon">
-              <i className="fab fa-adobe"></i>
-            </div>
-            <h3>Adobe Creative Suite</h3>
-            <p>Master Photoshop, Illustrator, InDesign, Premiere Pro, and more. Learn professional design and video editing skills.</p>
-            <ul>
-              <li>Photoshop CC</li>
-              <li>Illustrator CC</li>
-              <li>InDesign CC</li>
-              <li>Premiere Pro</li>
-              <li>After Effects</li>
-            </ul>
+        <div className="certifications-grid">
+          <div className="certification-card">
+            <div className="cert-icon">🌟</div>
+            <h3>Build confidence & engage in local cultures</h3>
           </div>
-
-          <div className="program-card">
-            <div className="program-icon">
-              <i className="fab fa-microsoft"></i>
-            </div>
-            <h3>Microsoft Office Suite</h3>
-            <p>Excel in Word, Excel, PowerPoint, Access, and Outlook. Essential skills for modern workplaces.</p>
-            <ul>
-              <li>Microsoft Word</li>
-              <li>Microsoft Excel</li>
-              <li>Microsoft PowerPoint</li>
-              <li>Microsoft Access</li>
-              <li>Microsoft Outlook</li>
-            </ul>
+          
+          <div className="certification-card">
+            <div className="cert-icon">📜</div>
+            <h3>Access qualifications that portray progress</h3>
           </div>
-
-          <div className="program-card">
-            <div className="program-icon">
-              <i className="fas fa-cloud"></i>
-            </div>
-            <h3>Microsoft Azure</h3>
-            <p>Cloud computing certifications for Azure Fundamentals, Administrator, Developer, and Solutions Architect.</p>
-            <ul>
-              <li>Azure Fundamentals (AZ-900)</li>
-              <li>Azure Administrator (AZ-104)</li>
-              <li>Azure Developer (AZ-204)</li>
-              <li>Azure Solutions Architect</li>
-            </ul>
+          
+          <div className="certification-card">
+            <div className="cert-icon">💻</div>
+            <h3>Find online support and teaching resources</h3>
           </div>
-
-          <div className="program-card">
-            <div className="program-icon">
-              <i className="fas fa-shield-alt"></i>
-            </div>
-            <h3>CompTIA Training</h3>
-            <p>Industry-recognized IT certifications for networking, security, and infrastructure professionals.</p>
-            <ul>
-              <li>CompTIA A+</li>
-              <li>CompTIA Network+</li>
-              <li>CompTIA Security+</li>
-              <li>CompTIA Linux+</li>
-              <li>CompTIA Cloud+</li>
-            </ul>
+          
+          <div className="certification-card">
+            <div className="cert-icon">🛠️</div>
+            <h3>Digital tools that transform learning & teaching</h3>
           </div>
-
-          <div className="program-card">
-            <div className="program-icon">
-              <i className="fas fa-certificate"></i>
-            </div>
-            <h3>ICDL Certification</h3>
-            <p>International Computer Driving License - Essential digital skills for the modern workplace.</p>
-            <ul>
-              <li>Computer Essentials</li>
-              <li>Online Essentials</li>
-              <li>Word Processing</li>
-              <li>Spreadsheets</li>
-              <li>Presentation</li>
-            </ul>
+          
+          <div className="certification-card">
+            <div className="cert-icon">📚</div>
+            <h3>eTextbooks that offer next-generation learning</h3>
           </div>
-
-          <div className="program-card">
-            <div className="program-icon">
-              <i className="fas fa-laptop-code"></i>
-            </div>
-            <h3>Custom Training</h3>
-            <p>Tailored training programs designed to meet your specific business needs and requirements.</p>
-            <ul>
-              <li>Corporate Training</li>
-              <li>Group Sessions</li>
-              <li>One-on-One Coaching</li>
-              <li>Online Training</li>
-              <li>Certification Prep</li>
-            </ul>
+          
+          <div className="certification-card">
+            <div className="cert-icon">🎯</div>
+            <h3>Get widely respected skills-based experience</h3>
           </div>
         </div>
       </div>
 
+      {/* Career Development & Mentorship */}
+      <div className="mentorship-section">
+        <h2>More Than Training — A Path to Success</h2>
+        <p>We don't just teach skills, we prepare you for careers. Our mentorship and career development programs guide you through every step of your journey, from building a standout résumé to excelling in interviews.</p>
+        
+        <div className="mentorship-panel">
+          <div className="mentorship-content">
+            <div className="mentorship-features">
+              <div className="feature-item">
+                <div className="feature-icon">📝</div>
+                <h4>Resume-building workshops and one-on-one review sessions</h4>
+              </div>
+              
+              <div className="feature-item">
+                <div className="feature-icon">🎤</div>
+                <h4>Interview practice and personalized feedback</h4>
+              </div>
+              
+              <div className="feature-item">
+                <div className="feature-icon">🌐</div>
+                <h4>Guidance on where to find opportunities and resources to keep learning</h4>
+              </div>
+              
+              <div className="feature-item">
+                <div className="feature-icon">🤝</div>
+                <h4>Mentorship from industry professionals who understand your path</h4>
+              </div>
+            </div>
+          </div>
+          
+          <div className="mentorship-image">
+            <img src={training3} alt="Career Mentorship" />
+          </div>
+        </div>
+
+        <div className="mentorship-programs">
+          <div className="program-column">
+            <div className="program-icon">💡</div>
+            <h3>Lessons in Entrepreneurship</h3>
+            <p>Meetings, practical lessons in entrepreneurship and personal development are given to students, who then apply what they have learned to their companies. We also have guest speakers who cover topics such as programming, AI, and financing.</p>
+          </div>
+          
+          <div className="program-column">
+            <div className="program-icon">👥</div>
+            <h3>Industry Mentors and Lecturers</h3>
+            <p>Teams are provided with industry mentors who are field expert. Past mentors include the former director of velocity, startup CEOs, software engineers, Professors, and even farmers! Mentors provide valuable input for members.</p>
+          </div>
+          
+          <div className="program-column">
+            <div className="program-icon">🎯</div>
+            <h3>Pitch Training and Development</h3>
+            <p>Teams are set up to participate in a variety of pitching competitions throughout the year.</p>
+          </div>
+        </div>
+      </div>
+
+      {/* How It Works */}
+      <div className="how-it-works-section">
+        <h2>Your Journey With Us</h2>
+        
+        <div className="journey-steps">
+          <div className="step">
+            <div className="step-number">1</div>
+            <h3>Choose Your Program</h3>
+            <p>Select certifications or mentorship suited to your goals.</p>
+          </div>
+          
+          <div className="step">
+            <div className="step-number">2</div>
+            <h3>Train with Experts</h3>
+            <p>Gain hands-on skills through guided learning.</p>
+          </div>
+          
+          <div className="step">
+            <div className="step-number">3</div>
+            <h3>Get Certified</h3>
+            <p>Receive globally recognized credentials.</p>
+          </div>
+          
+          <div className="step">
+            <div className="step-number">4</div>
+            <h3>Launch Your Career</h3>
+            <p>Apply your skills with confidence, backed by our mentorship.</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Testimonials */}
+      <div className="testimonials-section">
+        <h2>Real People. Real Success.</h2>
+        <p>Hear from individuals who transformed their skills and careers with us.</p>
+        
+        <div className="testimonials-grid">
+          <div className="testimonial-card">
+            <div className="testimonial-content">
+              <p>"Thanks to the mentorship program, I not only earned my ICDL but also landed my first job in IT support within 3 months."</p>
+              <div className="testimonial-author">
+                <img src={session1} alt="Student" />
+                <div>
+                  <h4>Ahmed Al-Rashid</h4>
+                  <p>IT Support Specialist</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div className="testimonial-card">
+            <div className="testimonial-content">
+              <p>"The Adobe training completely changed my career path. I now work as a graphic designer for a major company."</p>
+              <div className="testimonial-author">
+                <img src={training1} alt="Student" />
+                <div>
+                  <h4>Fatima Hassan</h4>
+                  <p>Graphic Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div className="testimonial-card">
+            <div className="testimonial-content">
+              <p>"The career guidance helped me understand what employers want. I got my Security+ certification and doubled my salary."</p>
+              <div className="testimonial-author">
+                <img src={training2} alt="Student" />
+                <div>
+                  <h4>Omar Khalil</h4>
+                  <p>Cybersecurity Analyst</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Call-to-Action */}
+      <div className="enrollment-section">
+        <h2>Start Building Your Future Today</h2>
+        <p>Join our community of learners and professionals. Gain certifications, develop hard skills, and receive the guidance you need to achieve your career goals.</p>
+        
+        <div className="enrollment-buttons">
+          <button className="enroll-btn">👉 Enroll Now</button>
+          <button className="consultation-btn">Book a Free Consultation</button>
+        </div>
+      </div>
+
+      {/* Past Sessions Gallery */}
       <div className="past-sessions">
-        <h2>Past Training Sessions & Events</h2>
+        <h2>Training Sessions & Events</h2>
         <p>Take a look at some of our successful training sessions and workshops</p>
         
         <div className="sessions-gallery">
           <div className="session-item">
             <img src={session1} alt="Adobe Training Session" />
-            <div className="session-overlay">
-              {/* <h4>Adobe Creative Suite Workshop</h4> */}
-              {/* <p>Professional design training session</p> */}
-            </div>
           </div>
           
           <div className="session-item">
             <img src={dscf7237} alt="Microsoft Office Training" />
-            <div className="session-overlay">
-              {/* <h4>Microsoft Office Certification</h4> */}
-              {/* <p>Office productivity skills workshop</p> */}
-            </div>
           </div>
           
           <div className="session-item">
             <img src={dscf7235} alt="Azure Training" />
-            <div className="session-overlay">
-              {/* <h4>Azure Cloud Training</h4> */}
-              {/* <p>Cloud computing certification prep</p> */}
-            </div>
           </div>
           
           <div className="session-item">
             <img src={training1} alt="CompTIA Training" />
-            <div className="session-overlay">
-              {/* <h4>CompTIA Security+</h4> */}
-              {/* <p>Cybersecurity certification training</p> */}
-            </div>
           </div>
           
           <div className="session-item">
             <img src={training2} alt="ICDL Training" />
-            <div className="session-overlay">
-              {/* <h4>ICDL Certification</h4> */}
-              {/* <p>Digital literacy certification</p> */}
-            </div>
           </div>
           
           <div className="session-item">
             <img src={training3} alt="Corporate Training" />
-            <div className="session-overlay">
-              {/*  <h4>Corporate Training</h4> */}
-              {/* <p>Custom business solutions training</p> */}
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="certification-benefits">
-        <h2>Why Choose Our Training?</h2>
-        <div className="benefits-grid">
-          <div className="benefit-item">
-            <i className="fas fa-certificate"></i>
-            <h3>Official Certifications</h3>
-            <p>Receive internationally recognized certifications upon completion</p>
-          </div>
-          
-          <div className="benefit-item">
-            <i className="fas fa-users"></i>
-            <h3>Expert Instructors</h3>
-            <p>Learn from certified professionals with years of industry experience</p>
-          </div>
-          
-          <div className="benefit-item">
-            <i className="fas fa-clock"></i>
-            <h3>Flexible Scheduling</h3>
-            <p>Choose from morning, afternoon, or evening sessions to fit your schedule</p>
-          </div>
-          
-          <div className="benefit-item">
-            <i className="fas fa-laptop"></i>
-            <h3>Hands-on Practice</h3>
-            <p>Gain practical experience with real-world projects and exercises</p>
           </div>
         </div>
       </div>

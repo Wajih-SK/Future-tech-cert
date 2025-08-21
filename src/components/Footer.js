@@ -35,12 +35,6 @@ function Footer() {
         </div>
 
         <div className="footer-column">
-          <h3>SUPPORT</h3>
-          <p className="contact-info">+963-123-456-7890</p>
-          <p className="contact-info">info@futurecompcenter.com</p>
-        </div>
-
-        <div className="footer-column">
           <h3>SERVICES</h3>
           <p>Enter your email address</p>
           <form onSubmit={handleSubmit} className="email-form">

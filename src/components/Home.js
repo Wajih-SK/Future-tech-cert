@@ -70,7 +70,7 @@ function Home() {
           </div>
           <div className="feature-card">
             <h3>Training & Certification</h3>
-            <p>Professional courses in Adobe, Microsoft Office, Azure, CompTIA, and ICDL</p>
+            <p>An accredited and licensed training center with internationally recognized certificates.</p>
             <p lang="ar" dir="rtl">مركز تدريب مهني معتمد ومرخص مع منح شهادات مصدقة دوليا</p>
           </div>
           <div className="feature-card">
