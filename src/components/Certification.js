@@ -4,10 +4,10 @@ import './Certification.css';
 // Import images
 import session1 from '../assets/images/session1.jpg';
 import dscf7237 from '../assets/images/event6.JPG';
-import dscf7235 from '../assets/images/DSCF7235.JPG';
-import training1 from '../assets/images/event3.JPG';
-import training2 from '../assets/images/event2.JPG';
-import training3 from '../assets/images/event4.JPG';
+import dscf7235 from '../assets/images/session2.png';
+import training1 from '../assets/images/session3.png';
+import training2 from '../assets/images/session4.png';
+import training3 from '../assets/images/r2.jpg';
 
 function Certification() {
   return (
